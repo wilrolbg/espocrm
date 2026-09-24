@@ -1,0 +1,311 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e40]:
+      - generic [ref=e41]:
+        - text: 
+        - button "" [ref=e42] [cursor=pointer]
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - link "" [ref=e48] [cursor=pointer]:
+                - /url: "#"
+                - generic "Inicio" [ref=e49]: 
+            - listitem [ref=e51]
+            - listitem [ref=e53]:
+              - link "" [ref=e54] [cursor=pointer]:
+                - /url: "#Account"
+                - generic "Cuentas" [ref=e55]: 
+            - listitem [ref=e57]:
+              - link "" [ref=e58] [cursor=pointer]:
+                - /url: "#Contact"
+                - generic "Contactos" [ref=e59]: 
+            - listitem [ref=e61]:
+              - link "" [ref=e62] [cursor=pointer]:
+                - /url: "#Lead"
+                - generic "Posibles clientes" [ref=e63]: 
+            - listitem [ref=e65]:
+              - link "$" [ref=e66] [cursor=pointer]:
+                - /url: "#Opportunity"
+                - generic "Oportunidades" [ref=e67]: $
+            - listitem [ref=e69]
+            - listitem [ref=e71]:
+              - link "" [ref=e72] [cursor=pointer]:
+                - /url: "#Email"
+                - generic "Correos" [ref=e73]: 
+            - listitem [ref=e75]:
+              - link "" [ref=e76] [cursor=pointer]:
+                - /url: "#Calendar"
+                - generic "Calendario" [ref=e77]: 
+            - listitem [ref=e79]:
+              - link "" [ref=e80] [cursor=pointer]:
+                - /url: "#Meeting"
+                - generic "Reuniones" [ref=e81]: 
+            - listitem [ref=e83]:
+              - link "" [ref=e84] [cursor=pointer]:
+                - /url: "#Call"
+                - generic "Llamadas" [ref=e85]: 
+            - listitem [ref=e87]:
+              - link "" [ref=e88] [cursor=pointer]:
+                - /url: "#Task"
+                - generic "Tareas" [ref=e89]: 
+            - listitem [ref=e91]
+            - listitem [ref=e93]:
+              - link "" [ref=e94] [cursor=pointer]:
+                - /url: "#Case"
+                - generic "Tickets" [ref=e95]: 
+            - listitem [ref=e97]:
+              - link "" [ref=e98] [cursor=pointer]:
+                - /url: "#KnowledgeBaseArticle"
+                - generic "Base de conocimiento" [ref=e99]: 
+            - listitem [ref=e101]
+            - listitem [ref=e103]:
+              - link "" [ref=e104] [cursor=pointer]:
+                - /url: "#Document"
+                - generic "Documentos" [ref=e105]: 
+            - listitem [ref=e107]:
+              - button "S " [ref=e108] [cursor=pointer]:
+                - generic "Sales & Purchases" [ref=e109]: S
+                - generic [ref=e111]: 
+              - text:                    
+            - listitem [ref=e112]:
+              - button "" [ref=e113] [cursor=pointer]
+              - text:                 
+          - button "" [ref=e115] [cursor=pointer]: 
+        - list [ref=e117]:
+          - listitem [ref=e118]:
+            - generic [ref=e119]:
+              - searchbox "Buscar" [ref=e120]
+              - generic "Buscar" [ref=e122] [cursor=pointer]: 
+          - listitem [ref=e124]:
+            - button "" [ref=e125] [cursor=pointer]
+          - listitem [ref=e127]:
+            - button "+" [ref=e128] [cursor=pointer]
+            - text:    $      
+          - listitem [ref=e130]:
+            - button "" [ref=e131] [cursor=pointer]
+          - listitem [ref=e133]:
+            - button "" [ref=e134] [cursor=pointer]
+            - text:   
+  - generic [active] [ref=e137]:
+    - generic [ref=e1118]:
+      - heading " Cuentas" [level=3] [ref=e1120]:
+        - generic "Clic para actualizar" [ref=e1123] [cursor=pointer]:
+          - generic [ref=e1124]: 
+          - text: Cuentas
+      - link "+ Crear cuenta" [ref=e1127] [cursor=pointer]:
+        - /url: "#Account/create"
+        - generic [ref=e1128]: +
+        - text: Crear cuenta
+    - generic [ref=e1129]:
+      - generic [ref=e1132]:
+        - generic [ref=e1133]:
+          - button "Todos" [ref=e1134] [cursor=pointer]
+          - text:   
+        - searchbox [ref=e1136]
+        - button "" [ref=e1138] [cursor=pointer]
+        - button "" [ref=e1141] [cursor=pointer]
+      - text: 
+    - generic [ref=e1144]:
+      - text:       
+      - generic [ref=e1145]:
+        - generic:     
+        - generic [ref=e1146]:
+          - button "1–13 / 13" [ref=e1148] [cursor=pointer]
+          - button ""
+          - button ""
+        - generic [ref=e1150]:
+          - button [ref=e1151] [cursor=pointer]
+          - text:       
+      - table [ref=e1154]:
+        - rowgroup [ref=e1155]:
+          - row [ref=e1156]:
+            - columnheader [ref=e1157]:
+              - checkbox [ref=e1159] [cursor=pointer]
+              - generic [ref=e1160]:
+                - button [ref=e1161] [cursor=pointer]
+                - text: 
+            - columnheader [ref=e1163]:
+              - button "Name" [ref=e1164] [cursor=pointer]
+            - columnheader [ref=e1165]:
+              - button "Industry" [ref=e1166] [cursor=pointer]
+            - columnheader [ref=e1167]:
+              - button "Type" [ref=e1168] [cursor=pointer]
+            - columnheader [ref=e1169]:
+              - button "Country" [ref=e1170] [cursor=pointer]
+            - columnheader [ref=e1171]
+        - rowgroup [ref=e1172]:
+          - row [ref=e1173]:
+            - cell [ref=e1174]:
+              - checkbox [ref=e1176] [cursor=pointer]
+            - cell [ref=e1177]:
+              - link "Wilson Becerra" [ref=e1178] [cursor=pointer]:
+                - /url: "#Account/view/6ab5889db3ff2efd9"
+            - cell "Software" [ref=e1179]
+            - cell "Cliente" [ref=e1180]
+            - cell "Francia" [ref=e1181]
+            - cell [ref=e1182]:
+              - generic [ref=e1183]:
+                - button [ref=e1184] [cursor=pointer]
+                - text:   
+          - row [ref=e1186]:
+            - cell [ref=e1187]:
+              - checkbox [ref=e1189] [cursor=pointer]
+            - cell [ref=e1190]:
+              - link "AFP Supply" [ref=e1191] [cursor=pointer]:
+                - /url: "#Account/view/659d2bac33c0ad6be"
+            - cell "Venta al por mayor" [ref=e1192]
+            - cell "Cliente" [ref=e1193]
+            - cell "Germany" [ref=e1194]
+            - cell [ref=e1195]:
+              - generic [ref=e1196]:
+                - button [ref=e1197] [cursor=pointer]
+                - text:   
+          - row [ref=e1199]:
+            - cell [ref=e1200]:
+              - checkbox [ref=e1202] [cursor=pointer]
+            - cell [ref=e1203]:
+              - link "Irving's Sport Goods Branch" [ref=e1204] [cursor=pointer]:
+                - /url: "#Account/view/6441062c7ca34c246"
+            - cell "Ropa y accesorios" [ref=e1205]
+            - cell "Cliente" [ref=e1206]
+            - cell "United States" [ref=e1207]
+            - cell [ref=e1208]:
+              - generic [ref=e1209]:
+                - button [ref=e1210] [cursor=pointer]
+                - text:   
+          - row [ref=e1212]:
+            - cell [ref=e1213]:
+              - checkbox [ref=e1215] [cursor=pointer]
+            - cell [ref=e1216]:
+              - link "Janeville" [ref=e1217] [cursor=pointer]:
+                - /url: "#Account/view/5f5f1fcec41c41354"
+            - cell "Electrónicos" [ref=e1218]
+            - cell "Cliente" [ref=e1219]
+            - cell "France" [ref=e1220]
+            - cell [ref=e1221]:
+              - generic [ref=e1222]:
+                - button [ref=e1223] [cursor=pointer]
+                - text:   
+          - row [ref=e1225]:
+            - cell [ref=e1226]:
+              - checkbox [ref=e1228] [cursor=pointer]
+            - cell [ref=e1229]:
+              - link "Intelacard" [ref=e1230] [cursor=pointer]:
+                - /url: "#Account/view/5f5f1ecbc217d42bc"
+            - cell "Telecomunicaciones" [ref=e1231]
+            - cell "Socio" [ref=e1232]
+            - cell "Germany" [ref=e1233]
+            - cell [ref=e1234]:
+              - generic [ref=e1235]:
+                - button [ref=e1236] [cursor=pointer]
+                - text:   
+          - row [ref=e1238]:
+            - cell [ref=e1239]:
+              - checkbox [ref=e1241] [cursor=pointer]
+            - cell [ref=e1242]:
+              - link "Stop & Shop" [ref=e1243] [cursor=pointer]:
+                - /url: "#Account/view/5f5f1d079f65e5574"
+            - cell "Venta al por menor" [ref=e1244]
+            - cell "Revendedor" [ref=e1245]
+            - cell "United Kingdom" [ref=e1246]
+            - cell [ref=e1247]:
+              - generic [ref=e1248]:
+                - button [ref=e1249] [cursor=pointer]
+                - text:   
+          - row [ref=e1251]:
+            - cell [ref=e1252]:
+              - checkbox [ref=e1254] [cursor=pointer]
+            - cell [ref=e1255]:
+              - link "MoneyIntro" [ref=e1256] [cursor=pointer]:
+                - /url: "#Account/view/5f5f1b06d2bad8db2"
+            - cell "Finanzas" [ref=e1257]
+            - cell "Inversor" [ref=e1258]
+            - cell "United Kingdom" [ref=e1259]
+            - cell [ref=e1260]:
+              - generic [ref=e1261]:
+                - button [ref=e1262] [cursor=pointer]
+                - text:   
+          - row [ref=e1264]:
+            - cell [ref=e1265]:
+              - checkbox [ref=e1267] [cursor=pointer]
+            - cell [ref=e1268]:
+              - link "EasyReservations" [ref=e1269] [cursor=pointer]:
+                - /url: "#Account/view/5f5f181782e3db1ce"
+            - cell "Entretenimiento y ocio" [ref=e1270]
+            - cell "Cliente" [ref=e1271]
+            - cell "Poland" [ref=e1272]
+            - cell [ref=e1273]:
+              - generic [ref=e1274]:
+                - button [ref=e1275] [cursor=pointer]
+                - text:   
+          - row [ref=e1277]:
+            - cell [ref=e1278]:
+              - checkbox [ref=e1280] [cursor=pointer]
+            - cell [ref=e1281]:
+              - link "Stratabiz" [ref=e1282] [cursor=pointer]:
+                - /url: "#Account/view/5f5f145422263770a"
+            - cell "Electrónicos" [ref=e1283]
+            - cell "Revendedor" [ref=e1284]
+            - cell "Italy" [ref=e1285]
+            - cell [ref=e1286]:
+              - generic [ref=e1287]:
+                - button [ref=e1288] [cursor=pointer]
+                - text:   
+          - row [ref=e1290]:
+            - cell [ref=e1291]:
+              - checkbox [ref=e1293] [cursor=pointer]
+            - cell [ref=e1294]:
+              - link "Prospa-Palnes Bank" [ref=e1295] [cursor=pointer]:
+                - /url: "#Account/view/5f5b42441ce59fc54"
+            - cell "Banca" [ref=e1296]
+            - cell "Cliente" [ref=e1297]
+            - cell "Germany" [ref=e1298]
+            - cell [ref=e1299]:
+              - generic [ref=e1300]:
+                - button [ref=e1301] [cursor=pointer]
+                - text:   
+          - row [ref=e1303]:
+            - cell [ref=e1304]:
+              - checkbox [ref=e1306] [cursor=pointer]
+            - cell [ref=e1307]:
+              - link "National Lumber" [ref=e1308] [cursor=pointer]:
+                - /url: "#Account/view/5f5b40d0cb9449fb6"
+            - cell "Fabricación" [ref=e1309]
+            - cell "Socio" [ref=e1310]
+            - cell "United States" [ref=e1311]
+            - cell [ref=e1312]:
+              - generic [ref=e1313]:
+                - button [ref=e1314] [cursor=pointer]
+                - text:   
+          - row [ref=e1316]:
+            - cell [ref=e1317]:
+              - checkbox [ref=e1319] [cursor=pointer]
+            - cell [ref=e1320]:
+              - link "Win's Private Hospital" [ref=e1321] [cursor=pointer]:
+                - /url: "#Account/view/5f5b3f733670098a0"
+            - cell "Cuidado de la salud" [ref=e1322]
+            - cell "Cliente" [ref=e1323]
+            - cell "France" [ref=e1324]
+            - cell [ref=e1325]:
+              - generic [ref=e1326]:
+                - button [ref=e1327] [cursor=pointer]
+                - text:   
+          - row [ref=e1329]:
+            - cell [ref=e1330]:
+              - checkbox [ref=e1332] [cursor=pointer]
+            - cell [ref=e1333]:
+              - link "Irving's Sport Goods" [ref=e1334] [cursor=pointer]:
+                - /url: "#Account/view/5f5b2be3355a2388b"
+            - cell "Deportes" [ref=e1335]
+            - cell "Cliente" [ref=e1336]
+            - cell "United States" [ref=e1337]
+            - cell [ref=e1338]:
+              - generic [ref=e1339]:
+                - button [ref=e1340] [cursor=pointer]
+                - text:   
+  - contentinfo [ref=e1114]:
+    - paragraph [ref=e1115]:
+      - text: © 2026
+      - link "EspoCRM, Inc." [ref=e1116] [cursor=pointer]:
+        - /url: https://www.espocrm.com
