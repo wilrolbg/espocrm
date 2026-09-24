@@ -1,0 +1,5 @@
+[  130898ms] [ERROR] Executing inline event handler violates the following Content Security Policy directive 'script-src 'self' 'nonce-fc95599efa72480af3e3502412385411' 'unsafe-eval' https://maps.googleapis.com 'nonce-d0da5cd5ec3b1de114c33ef65af2e00d''. Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present. The action has been blocked. @ https://demo.us.espocrm.com/:0
+[  130908ms] [LOG] Delete: cache-1790275729-app-language-default @ https://demo.us.espocrm.com/client/custom/modules/demo/src/views/login.js?r=1789561823:340
+[ 1594934ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://demo.us.espocrm.com/api/v1/Notification/action/notReadCount:0
+[ 1594976ms] i
+[ 1595098ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://demo.us.espocrm.com/?entryPoint=demoLanguageList&l=es_ES:0
